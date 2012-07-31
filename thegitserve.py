@@ -12,6 +12,7 @@ __version__ = '0.1'
 # Flask application
 app = Flask(__name__)
 app.config.from_object('default_config')
+app.config.from_envvar('SETTINGS_MODULE', silent=True)
 
 
 #Views
