@@ -1,5 +1,5 @@
-GitServe
-========
+The GitServe
+============
 
 This is a Github lottery.
 
