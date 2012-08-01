@@ -50,3 +50,36 @@ pre, code, kbd, samp, tt {
   font-family: monospace,monospace;
   font-size: 1em;
 }
+
+
+/* Main styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font: 16px Arial, Georgia, serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+a {
+  color: #38f;
+  font-size: 14px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.landingPage {
+  background-color: #eee;
+  padding: 24px 64px;
+  border-bottom: 1px solid #aaa;
+}
+
+.landingPage h1 {
+  margin-bottom: 12px;
+}
