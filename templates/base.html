@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}The GitServe{% endblock %}</title>
+    <link rel="shortcut icon" href="{{ url_for('.static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('.static', filename='style.css') }}" />
+    {% block styles %}{% endblock %}
+    {% block priority_scripts %}{% endblock %}
+</head>
+<body>
+    <div class="page">
+        {% block page %}{% endblock %}
+    </div>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
