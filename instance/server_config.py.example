@@ -1,0 +1,15 @@
+"""\
+Server-Specific Config
+
+The recommended usage of this file is to rename it to <servername>_config.py.
+This can be loaded by setting the SETTINGS_MODULE environment variable to here.
+
+See 'default_config.py' for a complete list of overridable settings.
+"""
+
+
+# Server settings
+SERVER_NAME = None      # Set to server name and port for subdomain support
+
+# Security settings
+SECRET_KEY = None       # Generate a key and put it here for secure cookies
