@@ -4,7 +4,7 @@ The Git Serve
 The Github lottery.
 """
 
-from flask import Flask
+from flask import Flask, render_template
 
 __version__ = '0.1'
 
@@ -18,7 +18,7 @@ app.config.from_envvar('SETTINGS_MODULE', silent=True)
 #Views
 @app.route('/')
 def index():
-    return 'The GitServe'
+    return render_template('index.html')
 
 
 # Run development server with the development settings
